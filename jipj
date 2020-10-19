@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char cara;
+    printf("Veuillez saisir quelque chose \n");
+    scanf("%c",&cara);
+
+    if ((cara>='a')&&(cara<='z')){
+        printf("La saisie est une lettre minuscule\n");
+    }
+    if ((cara>='65')&&(cara<='90')){
+        printf("La saisie est une lettre majuscule\n");
+    }
+    if ((cara>='0')&&(cara<='9')){
+        printf("La saisie est un chiffre\n");
+    }
+    else
+        printf("La saisie est une lettre minuscule\n");
+
+}
